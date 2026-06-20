@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Pipeline state colors -->
+    <color name="state_idle">#FF9E9E9E</color>
+    <color name="state_detected">#FFFFC107</color>
+    <color name="state_identified">#FF4CAF50</color>
+    <color name="state_speaking">#FF2196F3</color>
+    <color name="state_unknown">#FFFF5722</color>
+
+    <!-- Speak button states -->
+    <color name="btn_disabled">#FF9E9E9E</color>
+    <color name="btn_ready">#FF4CAF50</color>
+    <color name="btn_speaking">#FF2196F3</color>
+
+    <!-- Latency dashboard colors -->
+    <color name="latency_green">#FF4CAF50</color>
+    <color name="latency_yellow">#FFFFC107</color>
+    <color name="latency_red">#FFF44336</color>
+
+    <!-- UI surfaces -->
+    <color name="card_background">#CC000000</color>
+    <color name="overlay_background">#80000000</color>
+    <color name="bounding_box_color">#FF00E676</color>
+    <color name="bounding_box_unknown">#FFFF1744</color>
+    <color name="text_primary">#FFFFFFFF</color>
+    <color name="text_secondary">#FFBDBDBD</color>
+</resources>

@@ -1,0 +1,13 @@
+# Exclude things that don't belong in the Docker build context
+.git/
+.gradle/
+build/
+**/build/
+output/
+.idea/
+*.iml
+local.properties
+*.apk
+*.aab
+.DS_Store
+Thumbs.db

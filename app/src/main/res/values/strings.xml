@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MemoryLens</string>
+    <string name="title_enrollment">Enroll New Person</string>
+    <string name="title_enrolled_persons">Enrolled Persons</string>
+
+    <!-- Permissions -->
+    <string name="permission_camera_rationale">MemoryLens needs camera access to detect and recognise faces in real time.</string>
+    <string name="permission_audio_rationale">MemoryLens needs microphone access to record conversation context for memory cues.</string>
+    <string name="permission_storage_rationale">Storage access is required to write performance logs and load model files.</string>
+
+    <!-- UI Labels -->
+    <string name="label_listening">Listening…</string>
+    <string name="label_face_recognised">Face recognised — tap to hear</string>
+    <string name="label_unknown_face">Unknown person</string>
+    <string name="label_speak">Speak</string>
+    <string name="label_speaking">Speaking…</string>
+    <string name="label_enroll_new">Enroll New Person</string>
+    <string name="label_enrolled_persons">Enrolled Persons</string>
+    <string name="label_name">Name</string>
+    <string name="label_relationship">Relationship</string>
+    <string name="label_confirm_enroll">Confirm Enrollment</string>
+    <string name="label_capture_samples">Capture Face Samples (%1$d / 5)</string>
+    <string name="label_capture_samples_default">Capture Face Sample (0 / 5)</string>
+
+    <!-- Error messages -->
+    <string name="error_model_not_found">Model file not found. Please copy model files to assets/models/ — see MODELS_README.md for instructions.</string>
+    <string name="error_tts_unavailable">Text-to-speech unavailable. Please check device TTS settings.</string>
+    <string name="error_camera_unavailable">Camera unavailable.</string>
+
+    <!-- Conversation dialog -->
+    <string name="dialog_conversation_title">Conversation ended</string>
+    <string name="dialog_conversation_hint">What was this conversation about? (optional, max 100 chars)</string>
+    <string name="dialog_skip">Skip</string>
+    <string name="dialog_save">Save</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">PIPELINE LATENCY (ms)</string>
+    <string name="dashboard_frame_capture">Frame Capture</string>
+    <string name="dashboard_face_detection">Face Detection</string>
+    <string name="dashboard_face_embedding">Face Embedding</string>
+    <string name="dashboard_db_lookup">DB Lookup</string>
+    <string name="dashboard_llm_generation">LLM Generation</string>
+    <string name="dashboard_tts_speak">TTS Speak</string>
+    <string name="dashboard_total">TOTAL PIPELINE</string>
+</resources>

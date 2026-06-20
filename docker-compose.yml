@@ -1,0 +1,22 @@
+version: "3.8"
+
+# ── MemoryLens Docker Compose ─────────────────────────────────────────────────
+# Builds the Android APK and places it in ./output/
+#
+# Quick start:
+#   docker compose up --build
+#
+# Then install the APK on your Android phone (USB debugging enabled):
+#   adb install output/memorylens-debug.apk
+
+services:
+  build:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: memorylens:latest
+    volumes:
+      # APK is written here on the host after the build completes
+      - ./output:/workspace/output
+    environment:
+      - JAVA_TOOL_OPTIONS=-Xmx2g

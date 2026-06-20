@@ -1,0 +1,42 @@
+# ── Gradle ───────────────────────────────────────────────────────────────────
+.gradle/
+build/
+**/build/
+
+# ── Android Studio / IntelliJ ─────────────────────────────────────────────────
+.idea/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
+
+# ── Local configuration (contains absolute SDK path) ─────────────────────────
+local.properties
+
+# ── Signing keys ──────────────────────────────────────────────────────────────
+*.jks
+*.keystore
+*.ks
+
+# ── Generated APKs / AABs ────────────────────────────────────────────────────
+*.apk
+*.aab
+
+# ── Docker build output ───────────────────────────────────────────────────────
+output/
+
+# ── Room schema snapshots (generated, not human-edited) ──────────────────────
+app/schemas/
+
+# ── OS files ─────────────────────────────────────────────────────────────────
+Thumbs.db
+.DS_Store
+
+# ── Model files (download instructions in MODELS_README.md) ──────────────────
+# Uncomment the lines below if you want to exclude model files from the repo.
+# They are currently included because they are all under 10 MB.
+# app/src/main/assets/models/*.tflite
+# app/src/main/assets/models/*.pte
