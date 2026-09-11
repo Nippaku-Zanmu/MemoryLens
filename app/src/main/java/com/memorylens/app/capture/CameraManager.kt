@@ -58,7 +58,7 @@ class CameraManager(private val context: Context) {
                 cameraProvider.unbindAll()
                 cameraProvider.bindToLifecycle(
                     owner,
-                    CameraSelector.DEFAULT_FRONT_CAMERA,
+                    CameraSelector.DEFAULT_BACK_CAMERA,
                     preview,
                     analysis
                 )
