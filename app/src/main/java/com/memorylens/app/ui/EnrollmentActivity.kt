@@ -84,7 +84,7 @@ class EnrollmentActivity : AppCompatActivity() {
                 .build()
             analysis.setAnalyzer(analysisExecutor) { proxy -> processFrame(proxy) }
             provider.unbindAll()
-            provider.bindToLifecycle(this, CameraSelector.DEFAULT_FRONT_CAMERA, preview, analysis)
+            provider.bindToLifecycle(this, CameraSelector.DEFAULT_BACK_CAMERA, preview, analysis)
         }, ContextCompat.getMainExecutor(this))
     }
 
